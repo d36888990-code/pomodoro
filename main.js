@@ -1,7 +1,7 @@
 // 引入 Electron 的核心模块
 // app:           控制整个应用的生命周期（启动、退出等）
 // BrowserWindow: 创建桌面窗口
-// Tray:          系统托盘（右下角小图标）
+
 // Menu:          右键菜单
 // nativeImage:   原生图片对象（用于托盘图标）
 // ipcMain:       主进程与渲染进程通信
