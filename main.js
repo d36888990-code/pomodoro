@@ -1,11 +1,4 @@
-// 引入 Electron 的核心模块
-// app:           控制整个应用的生命周期（启动、退出等）
-// BrowserWindow: 创建桌面窗口
 
-// Menu:          右键菜单
-// nativeImage:   原生图片对象（用于托盘图标）
-// ipcMain:       主进程与渲染进程通信
-// Notification:  系统桌面通知
 const { app, BrowserWindow, Tray, Menu, nativeImage, ipcMain, Notification } = require('electron');
 const path = require('path');
 
