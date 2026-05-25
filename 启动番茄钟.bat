@@ -2,5 +2,5 @@
 cd /d D:\firstcc\firstcc\pomodoro
 set ELECTRON_OVERRIDE_DIST_PATH=C:\electron
 echo 正在启动番茄钟...
-npm run dev
+call npm run dev
 pause
