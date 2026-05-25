@@ -7,14 +7,7 @@ let mainWindow;   // 主窗口对象
 let tray;         // 系统托盘对象
 let isQuitting = false;  // 标记：用户是否真的想退出（防止误关窗口）
 
-/**
- * 创建番茄钟主窗口
- * 特点：
- *   - 无边框窗口（frame: false） → 使用自定义标题栏
- *   - 透明背景（transparent: true） → 实现圆角+暗黑视觉效果
- *   - 不可调整大小（resizable: false） → 保持固定尺寸 420×580
- *   - 关闭窗口其实是隐藏到托盘，而非真正退出
- */
+
 function createWindow() {
   mainWindow = new BrowserWindow({
     width: 420,           // 窗口宽度
